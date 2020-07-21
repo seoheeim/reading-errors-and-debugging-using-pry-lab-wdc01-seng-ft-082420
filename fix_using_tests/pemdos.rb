@@ -2,7 +2,8 @@
 
 def snake_it_up(string)
   if string[0] == "s"
-    string.rjust
+    repeated = string.rjust(10, "s") 
+    puts repeated + 
   else
     string
   end
